@@ -20,7 +20,7 @@ def scrape_find_job(position,location):
             jobs.append({
                         'Title':title,
                         'Company':company,
-                        'Job Link':'https://id.jobstreet.com/id/job/'+link
+                        'Job Link':'https://id.jobstreet.com'+link
                         })
         except AttributeError:
             continue
